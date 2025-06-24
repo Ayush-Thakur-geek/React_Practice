@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import 'remixicon/fonts/remixicon.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./public/pricedown.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}

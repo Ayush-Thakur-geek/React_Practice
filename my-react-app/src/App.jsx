@@ -4,6 +4,7 @@
 // import './App.css'
 import Header from './components/Header'
 import Nav from './components/Nav'
+import Btn from './components/Btn'
 
 function App(props) {
   // const [count, setCount] = useState(0)
@@ -37,6 +38,7 @@ function App(props) {
     <>
     <Nav />
     <Header name="Ayush" color="purple" />
+    <Btn />
     </>
     
   )
